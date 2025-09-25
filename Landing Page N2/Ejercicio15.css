@@ -1,0 +1,157 @@
+body {
+    font-family: 'Merriweather', serif;
+}
+.contenedorCabecera {
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+.navegacion a{
+    color: #fff;
+    font-family: GOOGLE Fonts 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+    font-style: normal;
+    justify-items: right;
+    margin: 0;
+    padding: 5px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+    text-decoration: none;
+    
+    
+}
+
+.Cabeceraimagen{
+   background-image: url(../../imagenes/ejercicio15CABECERA.jpg);
+   background-size: cover;
+   background-position: center;
+   height: 700px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+}
+#Titulo2{
+    font-size: 70px;
+    text-align: right;    
+    padding-top: 200px;
+    margin: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+}
+#Parrafo1{
+    text-align: right;
+    font-family: 'Merriweather', serif;
+}
+#Titulo3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    
+    font-family: 'Merriweather', serif;
+}
+#Titulo5{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-weight: 100;
+}
+#Contenedor3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+    font-family: 'Merriweather', serif;
+    font-size: small;
+}
+#Formulario{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+#Nombre , #Email{
+    border-radius: 5px;
+    width: 760px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+}
+#Mensaje{
+    border-radius: 5px;
+    width: 760px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Merriweather', serif;
+}
+#BotonEnviar{
+    border-radius: 5px;
+    width: 780px;
+    height: 20px;
+    text-align: center;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+}
+
+#Titulo3{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    font-weight: 100;
+    font-family: 'Merriweather', serif;
+}
+#Contenedor1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+    margin: 10px;
+    font-family: 'Merriweather', serif;
+}
+.ParrafoCaja1{
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    font-size: small;
+    word-spacing: 5px;
+    
+}
+#Titulo4{
+    text-align: center;
+    font-size: 3rem; 
+    font-family: 'Merriweather', serif;
+    background-color: #707070;
+    height: 100px;
+   font-weight: 100;
+    padding-top: 30px;
+    margin-bottom: 30px;
+    margin: 0;
+
+    
+}
+#Contenedor2{
+    
+    background-color: #707070;
+    column-count: 2;
+    column-gap: 50px;
+    padding: 100px;
+    text-align: left;
+    font-family: 'Merriweather', serif;
+    align-content: top  ;
+    
+    
+    
+}
+
