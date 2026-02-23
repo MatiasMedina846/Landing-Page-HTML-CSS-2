@@ -1,6 +1,12 @@
 body {
     font-family: 'Merriweather', serif;
 }
+
+#idCabecera{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 .contenedorCabecera {
     background-color: #000;
     color: #fff;
@@ -154,4 +160,5 @@ body {
     
     
 }
+
 
