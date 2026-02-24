@@ -1,13 +1,6 @@
 body {
     font-family: 'Merriweather', serif;
 }
-
-#idCabecera{
-  display: block;
-  width: min(520px, 100%);
-  height: auto;
-  margin: 0 auto;
-}
 }
 .contenedorCabecera {
     background-color: #000;
@@ -324,6 +317,7 @@ html, body{
 *{
   box-sizing: border-box;
 }
+
 
 
 
