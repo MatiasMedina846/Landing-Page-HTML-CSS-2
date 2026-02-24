@@ -170,6 +170,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+    align-items: center;
+    text-align: center;
 
   background: url("./img/ejercicio15CABECERA.jpg?v=4") center/cover no-repeat !important;
 }
@@ -186,6 +188,7 @@ body {
   z-index: 1;
   color: white;
 }
+
 
 
 
