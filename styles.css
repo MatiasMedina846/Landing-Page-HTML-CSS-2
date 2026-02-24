@@ -187,6 +187,85 @@ body {
   z-index: 1;
   color: white;
 }
+/* Evita que el padding rompa el ancho */
+* {
+  box-sizing: border-box;
+}
+
+/* Saca scroll horizontal accidental */
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+/* HERO / CABECERA */
+.Cabeceraimagen {
+  position: relative;
+  width: 100%;
+  min-height: 70vh;
+
+  /* Espaciado interno sin romper ancho */
+  padding: clamp(60px, 8vw, 100px) clamp(16px, 5vw, 64px);
+
+  /* Texto ordenado dentro de la sección */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+
+  /* Fondo */
+  background: url("./img/ejercicio15CABECERA.jpg?v=5") center / cover no-repeat;
+}
+
+/* Capa oscura para que el texto se lea */
+.Cabeceraimagen::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+}
+
+/* Todo lo de adentro queda por encima del overlay */
+.Cabeceraimagen > * {
+  position: relative;
+  z-index: 1;
+  color: white;
+}
+
+/* Título: anulamos reglas viejas que lo empujan */
+#Titulo2 {
+  margin: 0 0 12px 0 !important;
+  width: 100%;
+  max-width: 700px;
+
+  font-size: clamp(2rem, 4.5vw, 4rem);
+  line-height: 1.05;
+  white-space: normal !important;
+
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  transform: none !important;
+}
+
+/* Párrafo */
+#Parrafo1 {
+  margin: 0 !important;
+  width: 100%;
+  max-width: 700px;
+
+  font-size: 1rem;
+  line-height: 1.5;
+  white-space: normal !important;
+
+  position: static !important;
+  left: auto !important;
+  right: auto !important;
+  top: auto !important;
+  transform: none !important;
+}
 
 
 
