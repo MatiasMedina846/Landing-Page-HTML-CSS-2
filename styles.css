@@ -186,19 +186,8 @@ body {
   z-index: 1;
   color: white;
 }
-#Titulo2, #Parrafo1{
-  max-width: 700px;
-}
 
-#Titulo2{
-  font-size: clamp(2rem, 4vw, 4rem);
-  margin-bottom: 12px;
-}
 
-#Parrafo1{
-  font-size: 1rem;
-  line-height: 1.5;
-}
 
 
 
