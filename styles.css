@@ -165,19 +165,15 @@ body {
 .Cabeceraimagen{
   position: relative;
   width: 100%;
-  min-height: 70vh; /* altura de la sección */
+  min-height: 70vh !important;
   padding: 80px 5vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
 
-  background-image: url("./img/ejercicio15CABECERA.jpg?v=3");
-  background-size: cover;       /* llena el ancho/alto */
-  background-position: center;  /* centra la imagen */
-  background-repeat: no-repeat;
+  background: url("./img/ejercicio15CABECERA.jpg?v=4") center/cover no-repeat !important;
 }
 
-/* Capa oscura encima de la imagen (para legibilidad) */
 .Cabeceraimagen::before{
   content: "";
   position: absolute;
@@ -185,21 +181,23 @@ body {
   background: rgba(0,0,0,0.45);
 }
 
-/* El texto queda por encima de la capa oscura */
 .Cabeceraimagen > *{
   position: relative;
   z-index: 1;
+  color: white;
+}
+#Titulo2, #Parrafo1{
+  max-width: 700px;
 }
 
-/* Ajustes del texto (opcional, pero recomendado) */
 #Titulo2{
-  max-width: 800px;
-  margin: 0 0 12px 0;
+  font-size: clamp(2rem, 4vw, 4rem);
+  margin-bottom: 12px;
 }
 
 #Parrafo1{
-  max-width: 700px;
-  margin: 0;
+  font-size: 1rem;
+  line-height: 1.5;
 }
 
 
