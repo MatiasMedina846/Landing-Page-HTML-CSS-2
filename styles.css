@@ -162,6 +162,45 @@ body {
     
     
 }
+.Cabeceraimagen{
+  position: relative;
+  width: 100%;
+  min-height: 70vh; /* altura de la sección */
+  padding: 80px 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-image: url("./img/ejercicio15CABECERA.jpg?v=3");
+  background-size: cover;       /* llena el ancho/alto */
+  background-position: center;  /* centra la imagen */
+  background-repeat: no-repeat;
+}
+
+/* Capa oscura encima de la imagen (para legibilidad) */
+.Cabeceraimagen::before{
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.45);
+}
+
+/* El texto queda por encima de la capa oscura */
+.Cabeceraimagen > *{
+  position: relative;
+  z-index: 1;
+}
+
+/* Ajustes del texto (opcional, pero recomendado) */
+#Titulo2{
+  max-width: 800px;
+  margin: 0 0 12px 0;
+}
+
+#Parrafo1{
+  max-width: 700px;
+  margin: 0;
+}
 
 
 
