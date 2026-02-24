@@ -13,7 +13,7 @@ Landing page minimalista desarrollada con HTML y CSS, enfocada en un diseño lim
 - CSS
 
 ## Ver demo
-- GitHub Pages: (pegá acá el link cuando lo actives)
+- GitHub Pages: (https://matiasmedina846.github.io/Landing-Page-HTML-CSS-2/)
 
 ## Ejecutar local
 1) Clonar el repositorio
